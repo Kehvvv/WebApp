@@ -1,1 +1,84 @@
-opener {color: red};
+<!doctype html>
+<html lang="en" ng-app>
+
+<head>
+  <title>Video Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+  <style>
+    body {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    
+    table,
+    th,
+    td {
+      border-collapse: collapse;
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+    function load() {
+      $.ajax({
+        url: "/get/html",
+        cache: false,
+        success: function(html) {
+          $("#results").append(html);
+        }
+      });
+    };
+
+    $(document).ready(function() {
+      load();
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar navbar-fixed-top navbar-inverse">
+      <div class="navbar-inner">
+      </div>
+    </div>
+    <div class="page-header">
+      <h1>World Countries and Capitals</h1>
+    </div>
+    <div class="row">
+      <div id="results" class="span8">
+      </div>
+      <div class="span4">
+        <ul class="nav nav-list well">
+          <li>
+            <form enctype='application/json' action="/post/json" method="post">
+              <div class="field">
+                <input type="text" name="Title" placeholder="Title">
+              </div>
+              <div class="field">
+                <input type="text" name="Publisher" placeholder="Publisher">
+              </div>
+              <div class="field">
+                <input type="text" name="Rating" placeholder="Rating">
+              </div>
+              <div class="field">
+                <input type="text" name="Platform" placeholder="Platform">
+              </div>
+              <div class="field">
+                <input type="text" name="ERSB" placeholder="ERSB">
+              </div>
+              <div class="field">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
