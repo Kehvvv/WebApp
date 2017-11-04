@@ -20,24 +20,28 @@
 			<body>
 				<table>
 					<tr>
-						<th>Country code</th>
-						<th>Name</th>
-						<th>Capital</th>
-						<th>Phone code</th>
+						<th>Title</th>
+						<th>Publisher</th>
+						<th>Rating</th>
+						<th>Platform</th>
+						<th>ERSB</th>
 					</tr>
-					<xsl:for-each select="countries/country">
+					<xsl:for-each select="Games">
 							<tr>
 								<td>
-									<xsl:value-of select="Country_code"/>
+									<xsl:value-of select="Title"/>
 								</td>
 								<td>
-									<xsl:value-of select="Name"/>
+									<xsl:value-of select="Publisher"/>
 								</td>
 								<td>
-									<xsl:value-of select="Capital"/>
+									<xsl:value-of select="Rating"/>
 								</td>
 								<td>
-									<xsl:value-of select="Phone_code"/>
+									<xsl:value-of select="Platform"/>
+								</td>
+								<td>
+									<xsl:value-of select="ERSB"/>
 								</td>
 							</tr>
 					</xsl:for-each>

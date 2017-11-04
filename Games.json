@@ -1,0 +1,11 @@
+{
+    "country": [
+        {
+            "Country_code": "AF",
+            "Region": "AS",
+            "Name": "Afghanistan",
+            "Capital": "Kabul",
+            "Phone_code": 93
+        },
+    ]
+}
