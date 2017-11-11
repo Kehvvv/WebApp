@@ -26,7 +26,7 @@
 						<th>Platform</th>
 						<th>ERSB</th>
 					</tr>
-					<xsl:for-each select="Games">
+					<xsl:for-each select="games/game">
 							<tr>
 								<td>
 									<xsl:value-of select="Title"/>
