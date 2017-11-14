@@ -8,7 +8,7 @@
     "express": "^4.14.0",
     "fs": "0.0.1-security",
     "js2xmlparser": "^2.0.2",
-    "libxslt": "^0.6.3"
+    "libxslt": "^0.6.5"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,8 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikhail-nci/wad-simple-demo.git"
+    "url": "git+https://github.com/Kehvvv/WebApp.git"
   },
-  "author": "Mikhail",
-  "homepage": "https://github.com/mikhail-nci/wad-simple-demo#readme"
+  "author": "Kehvvv",
+  "homepage": "https://github.com/Kehvvv/WebApp#readme"
 }
