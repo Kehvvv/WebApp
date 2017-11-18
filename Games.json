@@ -69,6 +69,13 @@
             "Rating": "1",
             "Platform": "1",
             "ERSB": "1"
+        },
+        {
+            "Title": "Battlefield 1",
+            "Publisher": "Electronic Arts",
+            "Rating": "9/10",
+            "Platform": "Multi Platform",
+            "ERSB": "M"
         }
     ]
 }

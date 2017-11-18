@@ -70,4 +70,11 @@
         <Platform>1</Platform>
         <ERSB>1</ERSB>
     </game>
+    <game>
+        <Title>Battlefield 1</Title>
+        <Publisher>Electronic Arts</Publisher>
+        <Rating>9/10</Rating>
+        <Platform>Multi Platform</Platform>
+        <ERSB>M</ERSB>
+    </game>
 </games>
