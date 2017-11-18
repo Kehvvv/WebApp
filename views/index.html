@@ -38,6 +38,25 @@
       load();
     });
   </script>
+  <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("results");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -49,13 +68,19 @@
     <div class="page-header">
       <h1>Video Games</h1>
     </div>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for game title.." title="Type in a name">
+    <button id="retrieve" data-url="/">Retrieve</button>
+    <br>
+    <br>
     <div class="row">
       <div id="results" class="span8">
       </div>
       <div class="span4">
+        
         <ul class="nav nav-list well">
           <li>
-            <form enctype='application/json' action="/post/json" method="post">
+            <form id="form" enctype='application/json' action="/post/json" method="post">
+            
               <div class="field">
                 <input type="text" name="Title" placeholder="Title">
               </div>
