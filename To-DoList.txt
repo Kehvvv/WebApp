@@ -1,0 +1,9 @@
+Ideas to implement:
+- banner image across the top of the page
+- hover animation to show/hide form
+- link to amazon page with search results for each game
+- search across other fields (not only game title) --expand search functionality
+
+Fixes to be made:
+- general styling (colors, fonts, etc)
+- hide table until search is made
