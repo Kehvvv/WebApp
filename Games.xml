@@ -3,78 +3,8 @@
     <game>
         <Title>CoD</Title>
         <Publisher>Activision</Publisher>
-        <Rating>11</Rating>
+        <Rating>9.7</Rating>
         <Platform>Multi</Platform>
-        <ERSB>M</ERSB>
-    </game>
-    <game>
-        <Title>test</Title>
-        <Publisher>test</Publisher>
-        <Rating>test</Rating>
-        <Platform>test</Platform>
-        <ERSB>test</ERSB>
-    </game>
-    <game>
-        <Title>test1</Title>
-        <Publisher>test2</Publisher>
-        <Rating>test3</Rating>
-        <Platform>test5</Platform>
-        <ERSB>test4</ERSB>
-    </game>
-    <game>
-        <Title>test</Title>
-        <Publisher>test</Publisher>
-        <Rating>test</Rating>
-        <Platform>test</Platform>
-        <ERSB>test11</ERSB>
-    </game>
-    <game>
-        <Title>peggle</Title>
-        <Publisher>test</Publisher>
-        <Rating>test</Rating>
-        <Platform>test</Platform>
-        <ERSB>All</ERSB>
-    </game>
-    <game>
-        <Title></Title>
-        <Publisher></Publisher>
-        <Rating></Rating>
-        <Platform></Platform>
-        <ERSB>1</ERSB>
-    </game>
-    <game>
-        <Title></Title>
-        <Publisher></Publisher>
-        <Rating></Rating>
-        <Platform></Platform>
-        <ERSB>aaa</ERSB>
-    </game>
-    <game>
-        <Title>1</Title>
-        <Publisher>1</Publisher>
-        <Rating>3</Rating>
-        <Platform>3</Platform>
-        <ERSB>10000</ERSB>
-    </game>
-    <game>
-        <Title>shane</Title>
-        <Publisher>stop</Publisher>
-        <Rating>looking</Rating>
-        <Platform>at</Platform>
-        <ERSB>our code</ERSB>
-    </game>
-    <game>
-        <Title>1</Title>
-        <Publisher>1</Publisher>
-        <Rating>1</Rating>
-        <Platform>1</Platform>
-        <ERSB>1</ERSB>
-    </game>
-    <game>
-        <Title>Battlefield 1</Title>
-        <Publisher>Electronic Arts</Publisher>
-        <Rating>9/10</Rating>
-        <Platform>Multi Platform</Platform>
         <ERSB>M</ERSB>
     </game>
 </games>
