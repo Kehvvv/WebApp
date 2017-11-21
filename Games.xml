@@ -1,10 +1,17 @@
-<?xml version='1.0'?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <games>
-    <game>
-        <Title>CoD</Title>
-        <Publisher>Activision</Publisher>
-        <Rating>9.7</Rating>
-        <Platform>Multi</Platform>
-        <ERSB>M</ERSB>
-    </game>
+  <game>
+    <Title>CoD</Title>
+    <Publisher>Activision</Publisher>
+    <Rating>9.7</Rating>
+    <Platform>Multi</Platform>
+    <ERSB>M</ERSB>
+  </game>
+  <game>
+    <Title>GTA V</Title>
+    <Publisher>Rockstar</Publisher>
+    <Rating>9.5</Rating>
+    <Platform>Multi</Platform>
+    <ERSB>M</ERSB>
+  </game>
 </games>
