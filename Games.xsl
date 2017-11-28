@@ -5,13 +5,13 @@
 			<head>
 			</head>
 			<body>
-				<table>
+				<table id ="myTable">
 					<tr>
-						<th>Title</th>
-						<th>Publisher</th>
-						<th>Rating</th>
-						<th>Platform</th>
-						<th>ERSB</th>
+						<th onclick="sortTable(0)">Title</th>
+						<th onclick="sortTable(1)">Publisher</th>
+						<th onclick="sortTable(2)">Rating</th>
+						<th onclick="sortTable(3)">Platform</th>
+						<th onclick="sortTable(4)">ERSB</th>
 					</tr>
 					<xsl:for-each select="games/game">
 							<tr>

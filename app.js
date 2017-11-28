@@ -4,7 +4,8 @@ var http = require('http'),
     bodyParser = require('body-parser'),
     fs = require('fs'),
     js2xmlparser = require('js2xmlparser'),
-    libxslt = require('libxslt');
+    libxslt = require('libxslt'),
+    libxmljs = require('libxmljs');
 
 var router = express();
 var server = http.createServer(router);
