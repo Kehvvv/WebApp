@@ -14,4 +14,11 @@
     <Platform>Multi</Platform>
     <ERSB>M</ERSB>
   </game>
+  <game>
+    <Title>tiger woods</Title>
+    <Publisher>EA</Publisher>
+    <Rating>3</Rating>
+    <Platform>PC</Platform>
+    <ERSB>E</ERSB>
+  </game>
 </games>

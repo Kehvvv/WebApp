@@ -1,5 +1,7 @@
 body {
-  font-family:'times new roman';
+  font-family:'verdana';
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 #results {
@@ -9,3 +11,17 @@ body {
   font-size: 18px;
 }
 
+#banner{
+  height:150px;
+  width:100%;
+}
+
+#banner, img{
+  text-align:center;
+}
+
+table, th, td {
+      border-collapse: collapse;
+      border: 1px solid black;
+      text-align: center;
+    }

@@ -3,22 +3,6 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<style>
-				  table {
-				    border-collapse: collapse;
-				  }
-					th, {
-						background-color:grey;
-					}
-				  td, th {
-				    border: 1px solid #999;
-				    padding: 0.5rem;
-				    text-align: left;
-				  }
-				  th {
-				    font-weight: bold;
-				  }
-			  </style>
 			</head>
 			<body>
 				<table>
