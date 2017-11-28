@@ -1,5 +1,5 @@
 Ideas to implement:
-- banner image across the top of the page
+DONE - banner image across the top of the page
 - hover animation to show/hide form
 - link to amazon page with search results for each game
 - search across other fields (not only game title) --expand search functionality
