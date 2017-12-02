@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0'?>
 <games>
-  <game>
-    <Title>CoD</Title>
-    <Publisher>Activision</Publisher>
-    <Rating>9.7</Rating>
-    <Platform>Multi</Platform>
-    <ERSB>M</ERSB>
-  </game>
-  <game>
-    <Title>GTA V</Title>
-    <Publisher>Rockstar</Publisher>
-    <Rating>9.5</Rating>
-    <Platform>Multi</Platform>
-    <ERSB>M</ERSB>
-  </game>
-  <game>
-    <Title>tiger woods</Title>
-    <Publisher>EA</Publisher>
-    <Rating>3</Rating>
-    <Platform>PC</Platform>
-    <ERSB>E</ERSB>
-  </game>
+    <game>
+        <Title>CoD</Title>
+        <Publisher>Activision</Publisher>
+        <Rating>9.7</Rating>
+        <Platform>Multi</Platform>
+        <ERSB>M</ERSB>
+    </game>
+    <game>
+        <Title>Grand Theft Auto</Title>
+        <Publisher>Rockstar</Publisher>
+        <Rating>9.9</Rating>
+        <Platform>Muti</Platform>
+        <ERSB>M</ERSB>
+    </game>
 </games>

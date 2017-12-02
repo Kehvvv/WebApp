@@ -56,6 +56,24 @@
         }       
       }
     }
+    
+    $(document).ready(function() {
+      load();
+    });
+  </script>
+  <script>
+    function myDeleteFunction(event) {
+      console.log(event.target.parentNode.parentNode.children[1]);
+      document.getElementById("myTable").deleteRow(1);
+      
+       function myDeleteFunction(xml) {
+        var x,xmlDoc;
+        xmlDoc = xml.responseXML;
+       x =  xmlDoc.getElementsById("results")[0];
+       x.parentNode.removeChild(x);
+    }
+    }
+    
   </script>
  <script>
 function sortTable(n) {

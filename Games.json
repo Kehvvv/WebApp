@@ -6,6 +6,20 @@
             "Rating": "9.7",
             "Platform": "Multi",
             "ERSB": "M"
+        },
+        {
+            "Title": "CoD",
+            "Publisher": "Activision",
+            "Rating": "9.7",
+            "Platform": "Multi",
+            "ERSB": "M"
+        },
+        {
+            "Title": "Grand Theft Auto",
+            "Publisher": "Rockstar",
+            "Rating": "9.9",
+            "Platform": "Muti",
+            "ERSB": "M"
         }
     ]
 }

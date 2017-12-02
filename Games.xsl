@@ -12,6 +12,7 @@
 						<th onclick="sortTable(2)">Rating</th>
 						<th onclick="sortTable(3)">Platform</th>
 						<th onclick="sortTable(4)">ERSB</th>
+						<th>Delete</th>
 					</tr>
 					<xsl:for-each select="games/game">
 							<tr>
@@ -29,6 +30,11 @@
 								</td>
 								<td>
 									<xsl:value-of select="ERSB"/>
+								</td>
+								<td width="50" align="center">
+   							<input name="Delete"   Type="button"   value="Delete" >
+      					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
+									</input>
 								</td>
 							</tr>
 					</xsl:for-each>
