@@ -34,6 +34,7 @@
 								<td width="50" align="center">
    							<input name="Delete"   Type="button"   value="Delete" >
       					<xsl:attribute name="onclick">myDeleteFunction(event)</xsl:attribute>
+<!-- 									Makes the delete button clickable -->
 									</input>
 								</td>
 							</tr>

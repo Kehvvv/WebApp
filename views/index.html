@@ -57,14 +57,15 @@
       }
     }
     
-    $(document).ready(function() {
-      load();
-    });
+//     $(document).ready(function() {
+//       load();
+//     });
   </script>
   <script>
     function myDeleteFunction(event) {
       console.log(event.target.parentNode.parentNode.children[1]);
       document.getElementById("myTable").deleteRow(1);
+      //deletes the row when delete button is clicked
       
        function myDeleteFunction(xml) {
         var x,xmlDoc;
