@@ -9,3 +9,4 @@ DONE - banner image across the top of the page
 Fixes to be made:
 - general styling (colors, fonts, etc)
 - hide table until search is made
+- When submitting games through the form CoD is duplicated

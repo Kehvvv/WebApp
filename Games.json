@@ -20,6 +20,34 @@
             "Rating": "9.9",
             "Platform": "Muti",
             "ERSB": "M"
+        },
+        {
+            "Title": "FIFA",
+            "Publisher": "EA",
+            "Rating": "9",
+            "Platform": "Console",
+            "ERSB": "E+"
+        },
+        {
+            "Title": "Harry Potter",
+            "Publisher": "WB",
+            "Rating": "8",
+            "Platform": "Playstation 1",
+            "ERSB": "E+"
+        },
+        {
+            "Title": "After Burner",
+            "Publisher": "Sega",
+            "Rating": "7.6",
+            "Platform": "Sega",
+            "ERSB": "E+"
+        },
+        {
+            "Title": "After Burner",
+            "Publisher": "Sega",
+            "Rating": "7.6",
+            "Platform": "Sega",
+            "ERSB": "E+"
         }
     ]
 }

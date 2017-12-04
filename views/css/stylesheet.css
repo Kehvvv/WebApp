@@ -22,6 +22,25 @@ body {
 
 table, th, td {
       border-collapse: collapse;
-      border: 1px solid black;
+      border: 1px solid #ddd;
       text-align: center;
+      padding: 5px;
     }
+
+tr:hover {background-color: #5194ff;}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+th {
+    background-color: #c0cadb;
+    color: white;
+}

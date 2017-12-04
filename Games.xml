@@ -8,10 +8,45 @@
         <ERSB>M</ERSB>
     </game>
     <game>
+        <Title>CoD</Title>
+        <Publisher>Activision</Publisher>
+        <Rating>9.7</Rating>
+        <Platform>Multi</Platform>
+        <ERSB>M</ERSB>
+    </game>
+    <game>
         <Title>Grand Theft Auto</Title>
         <Publisher>Rockstar</Publisher>
         <Rating>9.9</Rating>
         <Platform>Muti</Platform>
         <ERSB>M</ERSB>
+    </game>
+    <game>
+        <Title>FIFA</Title>
+        <Publisher>EA</Publisher>
+        <Rating>9</Rating>
+        <Platform>Console</Platform>
+        <ERSB>E+</ERSB>
+    </game>
+    <game>
+        <Title>Harry Potter</Title>
+        <Publisher>WB</Publisher>
+        <Rating>8</Rating>
+        <Platform>Playstation 1</Platform>
+        <ERSB>E+</ERSB>
+    </game>
+    <game>
+        <Title>After Burner</Title>
+        <Publisher>Sega</Publisher>
+        <Rating>7.6</Rating>
+        <Platform>Sega</Platform>
+        <ERSB>E+</ERSB>
+    </game>
+    <game>
+        <Title>After Burner</Title>
+        <Publisher>Sega</Publisher>
+        <Rating>7.6</Rating>
+        <Platform>Sega</Platform>
+        <ERSB>E+</ERSB>
     </game>
 </games>
